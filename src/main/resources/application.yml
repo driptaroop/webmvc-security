@@ -1,0 +1,9 @@
+spring:
+  h2:
+    console:
+      enabled: true
+  jpa:
+    generate-ddl: true
+    hibernate:
+      ddl-auto: update
+    show-sql: true
